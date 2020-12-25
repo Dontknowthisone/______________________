@@ -81,28 +81,29 @@ Not about rabbits, all about bunnies!
 <a target="_blank" href="https://www.youtube.com/watch?v=rH3oQq4uDgo&ab_channel=NatGeoWILD"> Rabbit island</a>
 </p>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Colour</th>
-                    <th>Species</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Black & white</td>
-                    <td>bunny</td>
-                </tr>
-                <tr>
-                    <td>Brown</td>
-                    <td>bunny</td>
-                </tr>
-                <tr>
-                    <td>Spotted</td>
-                    <td>bunny</td>
-                </tr>
-            </tbody>
-        </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Colour</th>
+                <th>Species</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Black & white</td>
+                <td>bunny</td>
+            </tr>
+            <tr>
+                <td>Brown</td>
+                <td>bunny</td>
+            </tr>
+            <tr>
+                <td>Spotted</td>
+                <td>bunny</td>
+            </tr>
+        </tbody>
+    </table>
+
     
  
 </body>
