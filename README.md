@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
@@ -9,7 +7,7 @@
 
 .black-bunnies {color:black;}
 .brown-bunnies {color:brown;}
-.white-bunnies {color:white;}
+.white-bunnies {color:grey;}
    #hope {color:black;}
    .not-red {color:black;}
    table { font-size: 22px;}
