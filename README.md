@@ -1,27 +1,36 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
 <meta charset="utf-8">
 <title> Not about rabbits, all about bunnies </title>
 <style>
-        
+
+.black-bunnies {color:black;}
+.brown-bunnies {color:brown;}
+.white-bunnies {color:white;}
+   #hope {color:black;}
+   .not-red {color:black;}
+   table { font-size: 22px;}
         h1 {
             color: rgb(1000, 244, 15);
-        }  
+         font-family :"cursive", arial}  
  #island {color:black;}
-    h2 { color: red; }
-    h3 { color: black; }
+    h2 { color: red; font-family :"arial", fantasy;}
+    h3 { color: black; font-family :"cursive", arial;}
     h4 { color: rgb(253,98,0); }
-    
+    #carrots-bunnies{font-style:italic;}
     #brown-bunnies {color:brown;}
     #black-bunnies {color:black;}
     #grey-bunnies {color:grey;}
     #white-bunnies {color:rgb(245,255,250);}
     body { background-color: violet;}
-p{color:green;}
-ul{color:rgb(123,134,400);}
-ol{color:rgb(123,134,400);}
+p{color:green; font-family :"cursive", arial;}
+ul{color:rgb(123,134,400); font-family :"cursive", arial;}
+ol{color:rgb(123,134,400); font-family :"cursive", arial;}
 
+table {color:red;}
         </style>
 </head>
 <body>
@@ -45,7 +54,7 @@ Not about rabbits, all about bunnies!
 
 <h2 id="bunnies-and-carrots" class="white"> Bunnies shouldnt eat carrots </h2>
 
-<p class="white"> <strong>Bunnies shouldn't eat carrots</strong> this is because it is bad for their teeth. You should just give them <em>grass</em> instead </p>
+<p class="white" id="carrots-bunnies"> <strong>Bunnies shouldn't eat carrots</strong> this is because it is bad for their teeth. You should just give them <em>grass</em> instead </p>
 
 <h3 class="white" id="kinds-of-bunnies"> Kinds of bunnies </h3>
 
@@ -55,10 +64,10 @@ Not about rabbits, all about bunnies!
 
 <ul>
 
-<li id="grey-bunnies" class="white"> Grey bunnies</li>
-<li id="brown-bunnies" class="white"> Brown bunnies</li>
-<li id="white-bunnies" class="white"> White bunnies</li>
-<li id="black-bunnies" class="white"> Black bunnies</li>
+<li id="grey-bunnies" > Grey bunnies</li>
+<li class="brown-bunnies" > Brown bunnies</li>
+<li class="white-bunnies" > White bunnies</li>
+<li class="black-bunnies" > Black bunnies</li>
 <li class="white"> Spotted bunnies</li>
 
 </ul>
@@ -84,18 +93,23 @@ Not about rabbits, all about bunnies!
     <table>
         <thead>
             <tr>
-                <th>Colour</th>
-                <th>Species</th>
+                <th class="not-red">Colour</th>
+                <th class="not-red">Species</th>
             </tr>
         </thead>
         <tbody>
+          
             <tr>
-                <td>Black & white</td>
-                <td>bunny</td>
+                <td class="white-bunnies">White</td>
+                <td class="white-bunnies">bunny</td>
             </tr>
             <tr>
-                <td>Brown</td>
-                <td>bunny</td>
+                <td class="black-bunnies">Black</td>
+                <td class="black-bunnies">bunny</td>
+            </tr>
+            <tr>
+                <td class="brown-bunnies">Brown</td>
+                <td class="brown-bunnies">bunny</td>
             </tr>
             <tr>
                 <td>Spotted</td>
@@ -103,8 +117,7 @@ Not about rabbits, all about bunnies!
             </tr>
         </tbody>
     </table>
-
-    
+   
  
 </body>
 
